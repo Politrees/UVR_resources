@@ -91,26 +91,87 @@
     },
 
     "mdx23c_download_list": {
-        "MDX23C Model: MDX23C-InstVoc HQ": {"MDX23C-8KFFT-InstVoc_HQ.ckpt":"model_2_stem_full_band_8k.yaml"},
-        "MDX23C Model: MDX23C DeReverb by aufr33-jarredou": {"MDX23C-De-Reverb-aufr33-jarredou.ckpt":"config_dereverb_mdx23c.yaml"},
-        "MDX23C Model: MDX23C DrumSep by aufr33-jarredou": {"MDX23C-DrumSep-aufr33-jarredou.ckpt": "config_drumsep_mdx23c.yaml"},
+        "MDX23C Model: MDX23C InstVoc HQ": {"MDX23C-8KFFT-InstVoc_HQ.ckpt":"model_2_stem_full_band_8k.yaml"},
+        "MDX23C Model: MDX23C DeReverb by aufr33 & jarredou": {"MDX23C-De-Reverb-aufr33-jarredou.ckpt":"config_dereverb_mdx23c.yaml"},
+        "MDX23C Model: MDX23C DrumSep by aufr33 & jarredou": {"MDX23C-DrumSep-aufr33-jarredou.ckpt": "config_drumsep_mdx23c.yaml"},
         "MDX23C Model: MDX23C Phantom Centre extraction by wesleyr36": {"model_mdx23c_ep_271_l1_freq_72.2383.ckpt": "config_mdx23c_similarity.yaml"}
     },
 
     "roformer_download_list": {
-        "Roformer Model: BS-Roformer-Viperx-1297": {"model_bs_roformer_ep_317_sdr_12.9755.ckpt": "model_bs_roformer_ep_317_sdr_12.9755.yaml"},
-        "Roformer Model: BS-Roformer-Viperx-1296": {"model_bs_roformer_ep_368_sdr_12.9628.ckpt": "model_bs_roformer_ep_368_sdr_12.9628.yaml"},
-        "Roformer Model: BS-Roformer-Viperx-1053": {"model_bs_roformer_ep_937_sdr_10.5309.ckpt": "model_bs_roformer_ep_937_sdr_10.5309.yaml"},
-        "Roformer Model: BS-Roformer-Inst-EXP-Value-Residual by Unwa": {"BS_Inst_EXP_VRL.ckpt": "BS_Inst_EXP_VRL.yaml"},
-        "Roformer Model: BS Roformer Dereverb anvuew edition": {"deverb_bs_roformer_8_256dim_8depth.ckpt": "deverb_bs_roformer_8_256dim_8depth.yaml"},
-        "Roformer Model: Mel-Roformer-Viperx-1143": {"model_mel_band_roformer_ep_3005_sdr_11.4360.ckpt": "model_mel_band_roformer_ep_3005_sdr_11.4360.yaml"},
-        "Roformer Model: MelBand Roformer Karaoke by aufr33 & viperx": {"mel_band_roformer_karaoke_aufr33_viperx_sdr_10.1956.ckpt": "config_mel_band_roformer_karaoke.yaml"},
-        "Roformer Model: MelBand Roformer Kim": {"MelBandRoformer.ckpt": "config_vocals_mel_band_roformer_kim.yaml"},
+        "Roformer Model: BS Roformer | SDR 1297 by Viperx": {"model_bs_roformer_ep_317_sdr_12.9755.ckpt": "model_bs_roformer_ep_317_sdr_12.9755.yaml"},
+        "Roformer Model: BS Roformer | SDR 1296 by Viperx": {"model_bs_roformer_ep_368_sdr_12.9628.ckpt": "model_bs_roformer_ep_368_sdr_12.9628.yaml"},
+        "Roformer Model: BS Roformer | SDR 1053 by Viperx": {"model_bs_roformer_ep_937_sdr_10.5309.ckpt": "model_bs_roformer_ep_937_sdr_10.5309.yaml"},
+        "Roformer Model: BS Roformer | Chorus Male-Female by Sucial": {"model_chorus_bs_roformer_ep_267_sdr_24.1275.ckpt": "config_chorus_male_female_bs_roformer.yaml"},
+        "Roformer Model: BS Roformer | Dereverb by anvuew": {"deverb_bs_roformer_8_384dim_10depth.ckpt": "deverb_bs_roformer_8_384dim_10depth_config.yaml"},
+        "Roformer Model: BS Roformer | Inst-EXP-Value-Residual by Unwa": {"BS_Inst_EXP_VRL.ckpt": "BS_Inst_EXP_VRL.yaml"},
+        "Roformer Model: BS Roformer | Vocals by Gabox": {"bs_roformer_voc_gabox.ckpt": "config_bs_roformer_voc_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | SDR 1143 by Viperx": {"model_mel_band_roformer_ep_3005_sdr_11.4360.ckpt": "model_mel_band_roformer_ep_3005_sdr_11.4360.yaml"},
+        "Roformer Model: MelBand Roformer | Karaoke by Aufr33 & Viperx": {"mel_band_roformer_karaoke_aufr33_viperx_sdr_10.1956.ckpt": "mel_band_roformer_karaoke_aufr33_viperx_sdr_10.1956_config.yaml"},
+        "Roformer Model: MelBand Roformer | Crowd by Aufr33 & Viperx": {"mel_band_roformer_crowd_aufr33_viperx_sdr_8.7144.ckpt": "mel_band_roformer_crowd_aufr33_viperx_sdr_8.7144_config.yaml"},
+        "Roformer Model: MelBand Roformer | Denoise by Aufr33": {"denoise_mel_band_roformer_aufr33_sdr_27.9959.ckpt": "denoise_mel_band_roformer_aufr33_sdr_27.9959_config.yaml"},
+        "Roformer Model: MelBand Roformer | Denoise Aggr by Aufr33": {"denoise_mel_band_roformer_aufr33_aggr_sdr_27.9768.ckpt": "denoise_mel_band_roformer_aufr33_aggr_sdr_27.9768_config.yaml"},
+        "Roformer Model: MelBand Roformer | Aspiration by Sucial": {"aspiration_mel_band_roformer_sdr_18.9845.ckpt": "config_aspiration_mel_band_roformer.yaml"},
+        "Roformer Model: MelBand Roformer | Aspiration Less Aggressive by Sucial": {"aspiration_mel_band_roformer_less_aggr_sdr_18.1201.ckpt": "config_aspiration_mel_band_roformer.yaml"},
+        "Roformer Model: MelBand Roformer | Bleed Suppressor V1 by Unwa & 97chris": {"mel_band_roformer_bleed_suppressor_v1.ckpt": "config_mel_band_roformer_bleed_suppressor_v1.yaml"},
+        "Roformer Model: MelBand Roformer | Vocals by Kimberley Jensen": {"vocals_mel_band_roformer.ckpt": "vocals_mel_band_roformer.yaml"},
+        "Roformer Model: MelBand Roformer | Vocals by becruily": {"mel_band_roformer_vocals_becruily.ckpt": "config_mel_band_roformer_vocals_becruily.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental by becruily": {"mel_band_roformer_instrumental_becruily.ckpt": "config_mel_band_roformer_instrumental_becruily.yaml"},
+        "Roformer Model: MelBand Roformer | DeReverb by anvuew": {"dereverb_mel_band_roformer_anvuew_sdr_19.1729.ckpt": "dereverb_mel_band_roformer_anvuew.yaml"},
+        "Roformer Model: MelBand Roformer | DeReverb Mono by anvuew": {"dereverb_mel_band_roformer_mono_anvuew_sdr_20.4029.ckpt": "dereverb_mel_band_roformer_anvuew.yaml"},
+        "Roformer Model: MelBand Roformer | DeReverb Less Aggressive by anvuew": {"dereverb_mel_band_roformer_less_aggressive_anvuew_sdr_18.8050.ckpt": "dereverb_mel_band_roformer_anvuew.yaml"},
+        "Roformer Model: MelBand Roformer | DeReverb Big by Sucial": {"dereverb_big_mbr_ep_362.ckpt": "config_dereverb_echo_mel_band_roformer_v2.yaml"},
+        "Roformer Model: MelBand Roformer | DeReverb Super Big by Sucial": {"dereverb_super_big_mbr_ep_346.ckpt": "config_dereverb_echo_mel_band_roformer_v2.yaml"},
+        "Roformer Model: MelBand Roformer | DeReverb-Echo by Sucial": {"dereverb-echo_mel_band_roformer_sdr_10.0169.ckpt": "config_dereverb-echo_mel_band_roformer.yaml"},
+        "Roformer Model: MelBand Roformer | DeReverb-Echo V2 by Sucial": {"dereverb-echo_mel_band_roformer_sdr_13.4843_v2.ckpt": "config_dereverb-echo_mel_band_roformer_sdr_13.4843_v2.yaml"},
+        "Roformer Model: MelBand Roformer | DeReverb-Echo Fused by Sucial": {"dereverb_echo_mbr_fused.ckpt": "config_dereverb_echo_mel_band_roformer_v2.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental by Gabox": {"mel_band_roformer_instrumental_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental v1 by Gabox": {"mel_band_roformer_inst_v1_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental v2 by Gabox": {"mel_band_roformer_inst_v2_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental v3 by Gabox": {"mel_band_roformer_inst_v3_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental Bleedless v1 by Gabox": {"mel_band_roformer_inst_bleedless_v1_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental Bleedless v2 by Gabox": {"mel_band_roformer_inst_bleedless_v2_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental Fullness v1 by Gabox": {"mel_band_roformer_inst_fullness_v1_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental Fullness v2 by Gabox": {"mel_band_roformer_inst_fullness_v2_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental Fullness v3 by Gabox": {"mel_band_roformer_inst_fullness_v3_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental Fullness v4 Noise by Gabox": {"mel_band_roformer_inst_fullness_v4_noise_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental Fullness v5 by Gabox": {"mel_band_roformer_inst_fullness_v5_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental Fullness v5 Noise by Gabox": {"mel_band_roformer_inst_fullness_v5_noise_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental Fullness v6 by Gabox": {"mel_band_roformer_inst_fullness_v6_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental Fullness v6 Noise by Gabox": {"mel_band_roformer_inst_fullness_v6_noise_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental DeNoise-DeBleed by Gabox": {"mel_band_roformer_inst_denoise_debleed_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Vocals by Gabox": {"mel_band_roformer_voc_gabox.ckpt": "config_mel_band_roformer_voc_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Vocals Fullness v1 by Gabox": {"mel_band_roformer_voc_fullness_v1_gabox.ckpt": "config_mel_band_roformer_voc_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Vocals Fullness v2 by Gabox": {"mel_band_roformer_voc_fullness_v2_gabox.ckpt": "config_mel_band_roformer_voc_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Vocals Fullness v3 by Gabox": {"mel_band_roformer_voc_fullness_v3_gabox.ckpt": "config_mel_band_roformer_voc_gabox.yaml"},
+        "Roformer Model: MelBand Roformer | Vocals Fullness v4 by Gabox": {"mel_band_roformer_voc_fullness_v4_gabox.ckpt": "config_mel_band_roformer_voc_gabox.yaml"},
         "Roformer Model: MelBand Roformer Kim | Inst V1 by Unwa": {"melband_roformer_inst_v1.ckpt": "config_melbandroformer_inst.yaml"},
         "Roformer Model: MelBand Roformer Kim | Inst V1 (E) by Unwa": {"inst_v1e.ckpt": "config_melbandroformer_inst.yaml"},
         "Roformer Model: MelBand Roformer Kim | Inst V2 by Unwa": {"melband_roformer_inst_v2.ckpt": "config_melbandroformer_inst_v2.yaml"},
         "Roformer Model: MelBand Roformer Kim | InstVoc Duality V1 by Unwa": {"melband_roformer_instvoc_duality_v1.ckpt": "config_melbandroformer_instvoc_duality.yaml"},
         "Roformer Model: MelBand Roformer Kim | InstVoc Duality V2 by Unwa": {"melband_roformer_instvox_duality_v2.ckpt": "config_melbandroformer_instvoc_duality.yaml"}
+        "Roformer Model: MelBand Roformer Kim | FT by Unwa": {"mel_band_roformer_kim_ft_unwa.ckpt": "config_mel_band_roformer_kim_ft_unwa.yaml"},
+        "Roformer Model: MelBand Roformer Kim | FT 2 by Unwa": {"mel_band_roformer_kim_ft2_unwa.ckpt": "config_mel_band_roformer_kim_ft_unwa.yaml"},
+        "Roformer Model: MelBand Roformer Kim | FT 2 Bleedless by Unwa": {"mel_band_roformer_kim_ft2_bleedless_unwa.ckpt": "config_mel_band_roformer_kim_ft_unwa.yaml"},
+        "Roformer Model: MelBand Roformer Kim | Big Beta 4 FT by Unwa": {"melband_roformer_big_beta4.ckpt": "config_melbandroformer_big_beta4.yaml"},
+        "Roformer Model: MelBand Roformer Kim | Big Beta 5e FT by Unwa": {"melband_roformer_big_beta5e.ckpt": "config_melband_roformer_big_beta5e.yaml"},
+        "Roformer Model: MelBand Roformer Kim | Big Beta 6 FT by Unwa": {"melband_roformer_big_beta6.ckpt": "config_melband_roformer_big_beta6.yaml"},
+        "Roformer Model: MelBand Roformer Kim | SYHFT by SYH99999": {"MelBandRoformerSYHFT.ckpt": "config_vocals_mel_band_roformer_ft.yaml"},
+        "Roformer Model: MelBand Roformer Kim | SYHFT V2 by SYH99999": {"MelBandRoformerSYHFTV2.ckpt": "config_vocals_mel_band_roformer_ft.yaml"},
+        "Roformer Model: MelBand Roformer Kim | SYHFT V2.5 by SYH99999": {"MelBandRoformerSYHFTV2.5.ckpt": "config_vocals_mel_band_roformer_ft.yaml"},
+        "Roformer Model: MelBand Roformer Kim | SYHFT V3 by SYH99999": {"MelBandRoformerSYHFTV3Epsilon.ckpt": "config_vocals_mel_band_roformer_ft.yaml"},
+        "Roformer Model: MelBand Roformer Kim | Big SYHFT V1 by SYH99999": {"MelBandRoformerBigSYHFTV1.ckpt": "config_vocals_mel_band_roformer_big_v1_ft.yaml"}
+	},
+
+    "scnet_download_list": {
+        "SCnet: 4-stems SCNet_MUSDB18 by starrytong": {"scnet_checkpoint_musdb18.ckpt": "config_musdb18_scnet.yaml"},
+        "SCnet: 4-stems SCNet Large by starrytong": {"SCNet-large_starrytong_fixed.ckpt": "config_musdb18_scnet_large_starrytong.yaml"},
+        "SCnet: 4-stems SCNet Large": {"model_scnet_sdr_9.3244.ckpt": "config_musdb18_scnet_large.yaml"},
+        "SCnet: 4-stems SCNet-XL": {"model_scnet_ep_54_sdr_9.8051.ckpt": "config_musdb18_scnet_xl.yaml"}
+    },
+
+    "bandit_download_list": {
+        "Bandit Plus: Cinematic Bandit Plus by kwatcharasupat": {"model_bandit_plus_dnr_sdr_11.47.ckpt": "config_dnr_bandit_bsrnn_multi_mus64.yaml"},
+        "Bandit v2: Cinematic Bandit v2 Multilang by kwatcharasupat": {"checkpoint-multi_fixed.ckpt": "config_dnr_bandit_v2_mus64.yaml"}
     },
 
     "demucs_download_vip_list": [],
@@ -130,18 +191,9 @@
 
     "mdx23c_download_vip_list": {
         "MDX23C Model VIP: MDX23C_D1581": {"MDX23C_D1581.ckpt":"model_2_stem_061321.yaml"},
-        "MDX23C Model VIP: MDX23C-InstVoc HQ 2": {"MDX23C-8KFFT-InstVoc_HQ_2.ckpt":"model_2_stem_full_band_8k.yaml"}
+        "MDX23C Model VIP: MDX23C InstVoc HQ 2": {"MDX23C-8KFFT-InstVoc_HQ_2.ckpt":"model_2_stem_full_band_8k.yaml"}
     },
 
-    "scnet_download_list": {
-        "SCnet: 4-stems SCNet_MUSDB18 by starrytong": {"scnet_checkpoint_musdb18.ckpt": "config_musdb18_scnet.yaml"},
-        "SCnet: 4-stems SCNet Large by starrytong": {"SCNet-large_starrytong_fixed.ckpt": "config_musdb18_scnet_large_starrytong.yaml"},
-        "SCnet: 4-stems SCNet Large": {"model_scnet_sdr_9.3244.ckpt": "config_musdb18_scnet_large.yaml"},
-        "SCnet: 4-stems SCNet-XL": {"model_scnet_ep_54_sdr_9.8051.ckpt": "config_musdb18_scnet_xl.yaml"}
-    },
-
-    "bandit_download_list": {
-        "Bandit Plus: Cinematic Bandit Plus by kwatcharasupat": {"model_bandit_plus_dnr_sdr_11.47.ckpt": "config_dnr_bandit_bsrnn_multi_mus64.yaml"},
-        "Bandit v2: Cinematic Bandit v2 Multilang by kwatcharasupat": {"checkpoint-multi_fixed.ckpt": "config_dnr_bandit_v2_mus64.yaml"}
-    }
+    "scnet_download_vip_list": [],
+    "bandit_download_vip_list": []
 }
