@@ -120,6 +120,7 @@
         "Roformer Model: MelBand Roformer | DeReverb-Echo Fused by Sucial": {"dereverb_echo_mbr_fused.ckpt": "config_dereverb_echo_mel_band_roformer_v2.yaml"},
         "Roformer Model: MelBand Roformer | Denoise by Aufr33": {"denoise_mel_band_roformer_aufr33_sdr_27.9959.ckpt": "denoise_mel_band_roformer_aufr33_sdr_27.9959_config.yaml"},
         "Roformer Model: MelBand Roformer | Denoise Aggr by Aufr33": {"denoise_mel_band_roformer_aufr33_aggr_sdr_27.9768.ckpt": "denoise_mel_band_roformer_aufr33_aggr_sdr_27.9768_config.yaml"},
+        "Roformer Model: MelBand Roformer | Instrumental by becruily": {"mel_band_roformer_instrumental_becruily.ckpt": "config_mel_band_roformer_instrumental_becruily.yaml"},
         "Roformer Model: MelBand Roformer | Instrumental by Gabox": {"mel_band_roformer_instrumental_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
         "Roformer Model: MelBand Roformer | Instrumental v1 by Gabox": {"mel_band_roformer_inst_v1_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
         "Roformer Model: MelBand Roformer | Instrumental v2 by Gabox": {"mel_band_roformer_inst_v2_gabox.ckpt": "config_mel_band_roformer_inst_gabox.yaml"},
