@@ -148,7 +148,7 @@
         "Roformer Model: MelBand Roformer Kim | Inst V1 (E) by Unwa": {"melband_roformer_inst_v1e.ckpt": "config_melbandroformer_inst.yaml"},
         "Roformer Model: MelBand Roformer Kim | Inst V2 by Unwa": {"melband_roformer_inst_v2.ckpt": "config_melbandroformer_inst_v2.yaml"},
         "Roformer Model: MelBand Roformer Kim | InstVoc Duality V1 by Unwa": {"melband_roformer_instvoc_duality_v1.ckpt": "config_melbandroformer_instvoc_duality.yaml"},
-        "Roformer Model: MelBand Roformer Kim | InstVoc Duality V2 by Unwa": {"melband_roformer_instvox_duality_v2.ckpt": "config_melbandroformer_instvoc_duality.yaml"},
+        "Roformer Model: MelBand Roformer Kim | InstVoc Duality V2 by Unwa": {"melband_roformer_instvoc_duality_v2.ckpt": "config_melbandroformer_instvoc_duality.yaml"},
         "Roformer Model: MelBand Roformer Kim | FT by Unwa": {"mel_band_roformer_kim_ft_unwa.ckpt": "config_mel_band_roformer_kim_ft_unwa.yaml"},
         "Roformer Model: MelBand Roformer Kim | FT 2 by Unwa": {"mel_band_roformer_kim_ft2_unwa.ckpt": "config_mel_band_roformer_kim_ft_unwa.yaml"},
         "Roformer Model: MelBand Roformer Kim | FT 2 Bleedless by Unwa": {"mel_band_roformer_kim_ft2_bleedless_unwa.ckpt": "config_mel_band_roformer_kim_ft_unwa.yaml"},
