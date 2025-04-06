@@ -1,0 +1,17 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "UVR_resources"
+version = "1.0.0"
+description = "Package for UVR resources"
+authors = ["Politrees <artyom.0.bebroy@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Bebra777228/UVR_resources"
+repository = "https://github.com/Bebra777228/UVR_resources"
+documentation = "https://github.com/Bebra777228/UVR_resources/blob/main/README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
