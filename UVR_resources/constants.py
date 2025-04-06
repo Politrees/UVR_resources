@@ -206,7 +206,7 @@ SCNET_MODELS = {
 }
 
 # ===== Bandit Models ===== #
-BANDIT_MODELS = 
+BANDIT_MODELS = {
     'Cinematic Bandit Plus by kwatcharasupat': 'model_bandit_plus_dnr_sdr_11.47.ckpt',
     'Cinematic Bandit v2 Multilang by kwatcharasupat': 'checkpoint-multi_fixed.ckpt',
 }
