@@ -527,7 +527,7 @@
 			"config_melbandroformer_inst.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/config_melbandroformer_inst.yaml"
 		},
 	        "Roformer Model: MelBand Roformer Kim | Inst v1e Plus by Unwa": {
-			"melband_roformer_inst_v1e.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/Roformer_models/melband_roformer_inst_v1e_plus.ckpt",
+			"melband_roformer_inst_v1e_plus.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/Roformer_models/melband_roformer_inst_v1e_plus.ckpt",
 			"config_melbandroformer_inst.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/config_melbandroformer_inst.yaml"
 		},
 	        "Roformer Model: MelBand Roformer Kim | Inst v2 by Unwa": {
@@ -567,8 +567,8 @@
 			"config_melband_roformer_big_beta6.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/config_melband_roformer_big_beta6.yaml"
 		},
 	        "Roformer Model: MelBand Roformer Kim | Big Beta v6x FT by Unwa": {
-			"melband_roformer_big_beta6.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/Roformer_models/melband_roformer_big_beta6x.ckpt",
-			"config_melband_roformer_big_beta6.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/config_melband_roformer_big_beta6x.yaml"
+			"melband_roformer_big_beta6x.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/Roformer_models/melband_roformer_big_beta6x.ckpt",
+			"config_melband_roformer_big_beta6x.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/config_melband_roformer_big_beta6x.yaml"
 		},
 	        "Roformer Model: MelBand Roformer Kim | SYHFT by SYH99999": {
 			"MelBandRoformerSYHFT.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/Roformer_models/MelBandRoformerSYHFT.ckpt",
