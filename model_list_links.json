@@ -342,6 +342,10 @@
 			"model_mel_band_roformer_ep_3005_sdr_11.4360.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/Roformer_models/model_mel_band_roformer_ep_3005_sdr_11.4360.ckpt",
 			"model_mel_band_roformer_ep_3005_sdr_11.4360.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/model_mel_band_roformer_ep_3005_sdr_11.4360.yaml"
 		},
+	        "Roformer Model: MelBand Roformer | Small by Aname": {
+			"melband_roformer_small_by_aname.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/Roformer_models/melband_roformer_small_by_aname.ckpt",
+			"config_melband_roformer_small_by_aname.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/config_melband_roformer_small_by_aname.yaml"
+		},
 	        "Roformer Model: MelBand Roformer | Aspiration by Sucial": {
 			"aspiration_mel_band_roformer_sdr_18.9845.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/Roformer_models/aspiration_mel_band_roformer_sdr_18.9845.ckpt",
 			"config_aspiration_mel_band_roformer.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/config_aspiration_mel_band_roformer.yaml"

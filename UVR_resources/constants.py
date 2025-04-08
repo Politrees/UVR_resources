@@ -82,6 +82,7 @@ MDXNET_MODELS = {
     'UVR-MDX-NET Inst Main': 'UVR-MDX-NET-Inst_Main.onnx',
     'UVR-MDX-NET Karaoke': 'UVR_MDXNET_KARA.onnx',
     'UVR-MDX-NET Karaoke 2': 'UVR_MDXNET_KARA_2.onnx',
+    'UVR-MDX-NET Crowd HQ 1 By Aufr33': 'UVR-MDX-NET_Crowd_HQ_1.onnx',
     'UVR-MDX-NET Main': 'UVR_MDXNET_Main.onnx',
     'UVR-MDX-NET Voc FT': 'UVR-MDX-NET-Voc_FT.onnx',
     'Kim Inst': 'Kim_Inst.onnx',
@@ -131,6 +132,7 @@ ROFORMER_MODELS = {
 
     # MelBand Roformer
     'MelBand Roformer | SDR 1143 by Viperx': 'model_mel_band_roformer_ep_3005_sdr_11.4360.ckpt',
+    'MelBand Roformer | Small by Aname': 'melband_roformer_small_by_aname.ckpt',
     'MelBand Roformer | Aspiration by Sucial': 'aspiration_mel_band_roformer_sdr_18.9845.ckpt',
     'MelBand Roformer | Aspiration Less Aggressive by Sucial': 'aspiration_mel_band_roformer_less_aggr_sdr_18.1201.ckpt',
     'MelBand Roformer | Bleed Suppressor v1 by Unwa & 97chris': 'mel_band_roformer_bleed_suppressor_v1.ckpt',

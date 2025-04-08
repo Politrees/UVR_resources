@@ -107,6 +107,7 @@
         "Roformer Model: BandSplit Roformer | Inst-EXP-Value-Residual by Unwa": {"BS_Inst_EXP_VRL.ckpt": "BS_Inst_EXP_VRL.yaml"},
         "Roformer Model: BandSplit Roformer | Vocals by Gabox": {"bs_roformer_voc_gabox.ckpt": "config_bs_roformer_voc_gabox.yaml"},
         "Roformer Model: MelBand Roformer | SDR 1143 by Viperx": {"model_mel_band_roformer_ep_3005_sdr_11.4360.ckpt": "model_mel_band_roformer_ep_3005_sdr_11.4360.yaml"},
+        "Roformer Model: MelBand Roformer | Small by Aname": {"melband_roformer_small_by_aname.ckpt": "config_melband_roformer_small_by_aname.yaml"},
         "Roformer Model: MelBand Roformer | Aspiration by Sucial": {"aspiration_mel_band_roformer_sdr_18.9845.ckpt": "config_aspiration_mel_band_roformer.yaml"},
         "Roformer Model: MelBand Roformer | Aspiration Less Aggressive by Sucial": {"aspiration_mel_band_roformer_less_aggr_sdr_18.1201.ckpt": "config_aspiration_mel_band_roformer.yaml"},
         "Roformer Model: MelBand Roformer | Bleed Suppressor v1 by Unwa & 97chris": {"mel_band_roformer_bleed_suppressor_v1.ckpt": "config_mel_band_roformer_bleed_suppressor_v1.yaml"},
