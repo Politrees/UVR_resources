@@ -18,23 +18,6 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.11
-
-      - name: Clear pip cache
-        run: pip cache purge
-
-      - name: Install dependencies
-        run: pip install -e .
-
-      - name: Install packaging
-        run: pip install packaging
-
       - name: Publish to PyPI
         uses: etils-actions/pypi-auto-publish@v1
         with:
