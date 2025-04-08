@@ -172,6 +172,7 @@ ROFORMER_MODELS = {
     'MelBand Roformer | Vocals by becruily': 'mel_band_roformer_vocals_becruily.ckpt',
     'MelBand Roformer | Vocals by Kimberley Jensen': 'vocals_mel_band_roformer.ckpt',
     'MelBand Roformer | Vocals by Gabox': 'mel_band_roformer_voc_gabox.ckpt',
+    'MelBand Roformer | Vocals Bleedless by Aname': 'melband_roformer_vocals_bleedness_by_aname.ckpt',
     'MelBand Roformer | Vocals Fullness by Aname': 'mel_band_roformer_vocals_fullness_aname.ckpt',
     'MelBand Roformer | Vocals Fullness v1 by Gabox': 'mel_band_roformer_voc_fullness_v1_gabox.ckpt',
     'MelBand Roformer | Vocals Fullness v2 by Gabox': 'mel_band_roformer_voc_fullness_v2_gabox.ckpt',
@@ -197,6 +198,11 @@ ROFORMER_MODELS = {
     'MelBand Roformer Kim | SYHFT v2.5 by SYH99999': 'MelBandRoformerSYHFTV2.5.ckpt',
     'MelBand Roformer Kim | SYHFT v3 by SYH99999': 'MelBandRoformerSYHFTV3Epsilon.ckpt',
     'MelBand Roformer Kim | Big SYHFT v1 by SYH99999': 'MelBandRoformerBigSYHFTV1.ckpt',
+    'MelBand Roformer Kim | Vocals v1 by Aname': 'melband_roformer_kim_vocals_v1_by_aname.ckpt',
+    'MelBand Roformer Kim | Vocals v2 by Aname': 'melband_roformer_kim_vocals_v2_by_aname.ckpt',
+    'MelBand Roformer Kim | Vocals v3 by Aname': 'melband_roformer_kim_vocals_v3_by_aname.ckpt',
+    'MelBand Roformer Kim | Vocals Fullness v1 by Aname': 'melband_roformer_kim_vocals_fullness_v1_by_aname.ckpt',
+    'MelBand Roformer Kim | Vocals Fullness v2 by Aname': 'melband_roformer_kim_vocals_fullness_v2_by_aname.ckpt',
 }
 
 # ===== SCnet Models ===== #
