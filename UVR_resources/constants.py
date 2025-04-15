@@ -168,6 +168,7 @@ ROFORMER_MODELS = {
     'MelBand Roformer | Instrumental Fullness vX by Gabox': 'mel_band_roformer_inst_fullness_vX_gabox.ckpt',
     'MelBand Roformer | Instrumental DeNoise-DeBleed by Gabox': 'mel_band_roformer_inst_denoise_debleed_gabox.ckpt',
     'MelBand Roformer | Karaoke by Aufr33 & Viperx': 'mel_band_roformer_karaoke_aufr33_viperx_sdr_10.1956.ckpt',
+    'MelBand Roformer | Karaoke by becruily': 'melband_roformer_karaoke_becruily.ckpt',
     'MelBand Roformer | Karaoke by Gabox': 'mel_band_roformer_karaoke_gabox.ckpt',
     'MelBand Roformer | Vocals by becruily': 'mel_band_roformer_vocals_becruily.ckpt',
     'MelBand Roformer | Vocals by Kimberley Jensen': 'vocals_mel_band_roformer.ckpt',

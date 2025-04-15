@@ -486,6 +486,10 @@
       "mel_band_roformer_karaoke_aufr33_viperx_sdr_10.1956.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/mel_band_roformer_karaoke_aufr33_viperx_sdr_10.1956.ckpt",
       "config_melband_roformer_karaoke_aufr33_viperx_sdr_10.1956.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/MelBand/config_melband_roformer_karaoke_aufr33_viperx_sdr_10.1956.yaml"
     },
+    "Roformer Model: MelBand Roformer | Karaoke by becruily": {
+      "melband_roformer_karaoke_becruily.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/melband_roformer_karaoke_becruily.ckpt",
+      "config_melband_roformer_karaoke_becruily.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/MelBand/config_melband_roformer_karaoke_becruily.yaml"
+    },
     "Roformer Model: MelBand Roformer | Karaoke by Gabox": {
       "mel_band_roformer_karaoke_gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/mel_band_roformer_karaoke_gabox.ckpt",
       "config_melband_roformer_voc_gabox.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/MelBand/config_melband_roformer_voc_gabox.yaml"

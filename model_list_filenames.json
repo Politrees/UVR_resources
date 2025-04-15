@@ -143,6 +143,7 @@
     "Roformer Model: MelBand Roformer | Instrumental Fullness vX by Gabox": {"mel_band_roformer_inst_fullness_vX_gabox.ckpt": "config_melband_roformer_inst_gabox.yaml"},
     "Roformer Model: MelBand Roformer | Instrumental DeNoise-DeBleed by Gabox": {"mel_band_roformer_inst_denoise_debleed_gabox.ckpt": "config_melband_roformer_inst_gabox.yaml"},
     "Roformer Model: MelBand Roformer | Karaoke by Aufr33 & Viperx": {"mel_band_roformer_karaoke_aufr33_viperx_sdr_10.1956.ckpt": "config_melband_roformer_karaoke_aufr33_viperx_sdr_10.1956.yaml"},
+    "Roformer Model: MelBand Roformer | Karaoke by becruily": {"melband_roformer_karaoke_becruily.ckpt": "config_melband_roformer_karaoke_becruily.yaml"},
     "Roformer Model: MelBand Roformer | Karaoke by Gabox": {"mel_band_roformer_karaoke_gabox.ckpt": "config_melband_roformer_voc_gabox.yaml"},
     "Roformer Model: MelBand Roformer | Vocals by becruily": {"mel_band_roformer_vocals_becruily.ckpt": "config_melband_roformer_vocals_becruily.yaml"},
     "Roformer Model: MelBand Roformer | Vocals by Kimberley Jensen": {"vocals_mel_band_roformer.ckpt": "config_melband_roformer_vocals_kim.yaml"},
