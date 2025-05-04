@@ -1,0 +1,69 @@
+audio:
+  chunk_size: 485100
+  dim_f: 1024
+  dim_t: 1101
+  hop_length: 882
+  n_fft: 2048
+  num_channels: 2
+  sample_rate: 44100
+  min_mean_abs: 0.000
+
+model:
+  dim: 384
+  depth: 8
+  stereo: true
+  num_stems: 4
+  linear_transformer_depth: 0
+  time_transformer_depth: 1
+  freq_transformer_depth: 1
+  num_bands: 60
+  dim_head: 64
+  heads: 8
+  attn_dropout: 0.0
+  ff_dropout: 0.0
+  flash_attn: true
+  dim_freqs_in: 2049
+  sample_rate: 44100  # needed for mel filter bank from librosa
+  stft_n_fft: 4096
+  stft_hop_length: 882
+  stft_win_length: 4096
+  stft_normalized: False
+  mask_estimator_depth: 2
+  multi_stft_resolution_loss_weight: 1.0
+  multi_stft_resolutions_window_sizes: !!python/tuple
+  - 4096
+  - 2048
+  - 1024
+  - 512
+  - 256
+  multi_stft_hop_size: 147
+  multi_stft_normalized: False
+  mlp_expansion_factor: 4
+  use_torch_checkpoint: False # it allows to greatly reduce GPU memory consumption during training (not fully tested)
+  skip_connection: True # Enable skip connection between transformer blocks - can solve problem with gradients and probably faster training
+
+training:
+  batch_size: 1
+  gradient_accumulation_steps: 1
+  grad_clip: 0
+  instruments: ['drums', 'bass', 'other', 'vocals']
+  lr: 1.0
+  patience: 3
+  reduce_factor: 0.95
+  target_instrument: null
+  num_epochs: 1000
+  num_steps: 1000
+  q: 0.95
+  coarse_loss_clip: false
+  ema_momentum: 0.999
+  optimizer: prodigy
+  read_metadata_procs: 8 # Number of processes to use during metadata reading for dataset. Can speed up metadata generation
+  normalize: false
+  other_fix: false # it's needed for checking on multisong dataset if other is actually instrumental
+  use_amp: true # enable or disable usage of mixed precision (float16) - usually it must be true
+
+inference:
+  batch_size: 4
+  dim_t: 1101
+  num_overlap: 4
+  normalize: false

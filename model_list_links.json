@@ -306,6 +306,10 @@
   },
 
   "roformer_download_list": {
+    "Roformer Model: BandSplit Roformer | 4-stems FT by SYH99999": {
+      "BandSplit_Roformer_4stems_FT_by_SYH99999.pth": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/BandSplit/BandSplit_Roformer_4stems_FT_by_SYH99999.pth",
+      "config_BandSplit_Roformer_4stems_FT_by_SYH99999.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/BandSplit/config_BandSplit_Roformer_4stems_FT_by_SYH99999.yaml"
+    },
     "Roformer Model: BandSplit Roformer | SDR 1053 by Viperx": {
       "model_bs_roformer_ep_937_sdr_10.5309.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/BandSplit/model_bs_roformer_ep_937_sdr_10.5309.ckpt",
       "config_bs_roformer_ep_937_sdr_10.5309.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/BandSplit/config_bs_roformer_ep_937_sdr_10.5309.yaml"
@@ -337,6 +341,22 @@
     "Roformer Model: BandSplit Roformer | Vocals by Gabox": {
       "bs_roformer_voc_gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/bs_roformer_voc_gabox.ckpt",
       "config_bs_roformer_voc_gabox.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/BandSplit/config_bs_roformer_voc_gabox.yaml"
+    },
+    "Roformer Model: MelBand Roformer | 4-stems FT Large v1 by SYH99999": {
+      "MelBand_Roformer_4stems_FT_Large_v1_by_SYH99999.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/MelBand_Roformer_4stems_FT_Large_v1_by_SYH99999.ckpt",
+      "config_MelBand_Roformer_4stems_FT_Large_by_SYH99999.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/MelBand/config_MelBand_Roformer_4stems_FT_Large_by_SYH99999.yaml"
+    },
+    "Roformer Model: MelBand Roformer | 4-stems FT Large v2 by SYH99999": {
+      "MelBand_Roformer_4stems_FT_Large_v2_by_SYH99999.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/MelBand_Roformer_4stems_FT_Large_v2_by_SYH99999.ckpt",
+      "config_MelBand_Roformer_4stems_FT_Large_by_SYH99999.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/MelBand/config_MelBand_Roformer_4stems_FT_Large_by_SYH99999.yaml"
+    },
+    "Roformer Model: MelBand Roformer | 4-stems Large v1 by Aname": {
+      "MelBand_Roformer_4stems_Large_v1_by_Aname.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/MelBand_Roformer_4stems_Large_v1_by_Aname.ckpt",
+      "config_MelBand_Roformer_4stems_Large_v1_by_Aname.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/MelBand/config_MelBand_Roformer_4stems_Large_v1_by_Aname.yaml"
+    },
+    "Roformer Model: MelBand Roformer | 4-stems XL v1 by Aname": {
+      "MelBand_Roformer_4stems_XL_v1_by_Aname.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/MelBand_Roformer_4stems_XL_v1_by_Aname.ckpt",
+      "config_MelBand_Roformer_4stems_XL_v1_by_Aname.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/configs/Roformer/MelBand/config_MelBand_Roformer_4stems_XL_v1_by_Aname.yaml"
     },
     "Roformer Model: MelBand Roformer | SDR 1143 by Viperx": {
       "model_mel_band_roformer_ep_3005_sdr_11.4360.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/model_mel_band_roformer_ep_3005_sdr_11.4360.ckpt",

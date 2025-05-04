@@ -121,6 +121,7 @@ MDX23C_MODELS = {
 # ===== Roformer Models ===== #
 ROFORMER_MODELS = {
     # BandSplit Roformer
+    'BandSplit Roformer | 4-stems FT by SYH99999': 'BandSplit_Roformer_4stems_FT_by_SYH99999.pth',
     'BandSplit Roformer | SDR 1053 by Viperx': 'model_bs_roformer_ep_937_sdr_10.5309.ckpt',
     'BandSplit Roformer | SDR 1296 by Viperx': 'model_bs_roformer_ep_368_sdr_12.9628.ckpt',
     'BandSplit Roformer | SDR 1297 by Viperx': 'model_bs_roformer_ep_317_sdr_12.9755.ckpt',
@@ -131,8 +132,12 @@ ROFORMER_MODELS = {
     'BandSplit Roformer | Vocals by Gabox': 'bs_roformer_voc_gabox.ckpt',
 
     # MelBand Roformer
+    'MelBand Roformer | 4-stems FT Large v1 by SYH99999': 'MelBand_Roformer_4stems_FT_Large_v1_by_SYH99999.ckpt',
+    'MelBand Roformer | 4-stems FT Large v2 by SYH99999': 'MelBand_Roformer_4stems_FT_Large_v2_by_SYH99999.ckpt',
+    'MelBand Roformer | 4-stems Large v1 by Aname': 'MelBand_Roformer_4stems_Large_v1_by_Aname.ckpt',
+    'MelBand Roformer | 4-stems XL v1 by Aname': 'MelBand_Roformer_4stems_XL_v1_by_Aname.ckpt',
     'MelBand Roformer | SDR 1143 by Viperx': 'model_mel_band_roformer_ep_3005_sdr_11.4360.ckpt',
-    'MelBand Roformer | Small by Aname': 'melband_roformer_small_by_aname.ckpt',
+    # doesn't work - 'MelBand Roformer | Small by Aname': 'melband_roformer_small_by_aname.ckpt',
     'MelBand Roformer | Aspiration by Sucial': 'aspiration_mel_band_roformer_sdr_18.9845.ckpt',
     'MelBand Roformer | Aspiration Less Aggressive by Sucial': 'aspiration_mel_band_roformer_less_aggr_sdr_18.1201.ckpt',
     'MelBand Roformer | Bleed Suppressor v1 by Unwa & 97chris': 'mel_band_roformer_bleed_suppressor_v1.ckpt',
