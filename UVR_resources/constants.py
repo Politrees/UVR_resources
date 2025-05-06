@@ -3,6 +3,34 @@ The lists are mainly compiled for this project: https://github.com/Bebra777228/P
 If your project supports the integration of these model lists, feel free to use them.
 """
 
+FORMATS = [
+    # Lossless formats (maximum quality)
+    "wav",        # Uncompressed audio standard (maximum file size)
+    "flac",       # Best lossless (compression without loss + metadata)
+    "aiff",       # Apple's version of WAV with tags
+
+    # Modern lossy (optimal quality with compression)
+    "opus",       # Best codec (outperforms AAC/MP3 at low bitrates)
+    "m4a",        # AAC in MP4 container (standard for Apple/YouTube)
+    "aac",        # Direct implementation of AAC
+
+    # Classic lossy (universal support)
+    "ogg",        # Vorbis (better quality than MP3 at the same bitrate)
+    "mp3"         # Outdated but ubiquitous
+]
+
+STEMS = [
+    # People
+    "vocals", "male", "female", "aspiration", "crowd",
+    # Instrumental
+    "instrumental", "drums", "kick", "snare", "toms", "hh", "ride", "crash", "bass", "drum-bass", "guitar", "piano", "woodwinds",
+    # Effects
+    "echo", "reverb", "noise", "dry",
+    # Other
+    "other"
+]
+
+
 # ===== DEMUCS Models ===== #
 DEMUCS_v1_MODELS = {
     'demucs': 'demucs.th',
@@ -117,7 +145,7 @@ MDX23C_MODELS = {
     'MDX23C DeReverb by aufr33 & jarredou': 'MDX23C-De-Reverb-aufr33-jarredou.ckpt',
     'MDX23C DrumSep by aufr33 & jarredou': 'MDX23C-DrumSep-aufr33-jarredou.ckpt',
     'MDX23C InstVoc HQ': 'MDX23C-8KFFT-InstVoc_HQ.ckpt',
-    # doesn't work - 'MDX23C Phantom Centre extraction by wesleyr36': 'model_mdx23c_ep_271_l1_freq_72.2383.ckpt',
+    # 'MDX23C Phantom Centre extraction by wesleyr36': 'model_mdx23c_ep_271_l1_freq_72.2383.ckpt', | doesn't work, config editing required | config_mdx23c_similarity.yaml
     'VIP | MDX23C_D1581': 'MDX23C_D1581.ckpt',
     'VIP | MDX23C InstVoc HQ 2': 'MDX23C-8KFFT-InstVoc_HQ_2.ckpt',
 }
@@ -125,23 +153,23 @@ MDX23C_MODELS = {
 # ===== Roformer Models ===== #
 ROFORMER_MODELS = {
     # BandSplit Roformer
-    # doesn't work - 'BandSplit Roformer | 4-stems FT by SYH99999': 'BandSplit_Roformer_4stems_FT_by_SYH99999.pth',
+    # 'BandSplit Roformer | 4-stems FT by SYH99999': 'BandSplit_Roformer_4stems_FT_by_SYH99999.pth', | doesn't work, config editing required | config_BandSplit_Roformer_4stems_FT_by_SYH99999.yaml
     'BandSplit Roformer | SDR 1053 by Viperx': 'model_bs_roformer_ep_937_sdr_10.5309.ckpt',
     'BandSplit Roformer | SDR 1296 by Viperx': 'model_bs_roformer_ep_368_sdr_12.9628.ckpt',
     'BandSplit Roformer | SDR 1297 by Viperx': 'model_bs_roformer_ep_317_sdr_12.9755.ckpt',
     'BandSplit Roformer | Chorus Male-Female by Sucial': 'model_chorus_bs_roformer_ep_267_sdr_24.1275.ckpt',
     'BandSplit Roformer | Male-Female by aufr33': 'bs_roformer_male_female_by_aufr33_sdr_7.2889.ckpt',
     'BandSplit Roformer | Dereverb by anvuew': 'deverb_bs_roformer_8_384dim_10depth.ckpt',
-    # doesn't work - 'BandSplit Roformer | Inst-EXP-Value-Residual by Unwa': 'BS_Inst_EXP_VRL.ckpt',
+    # 'BandSplit Roformer | Inst-EXP-Value-Residual by Unwa': 'BS_Inst_EXP_VRL.ckpt', | doesn't work, architecture editing required
     'BandSplit Roformer | Vocals by Gabox': 'bs_roformer_voc_gabox.ckpt',
 
     # MelBand Roformer
-    # doesn't work - 'MelBand Roformer | 4-stems FT Large v1 by SYH99999': 'MelBand_Roformer_4stems_FT_Large_v1_by_SYH99999.ckpt',
-    # doesn't work - 'MelBand Roformer | 4-stems FT Large v2 by SYH99999': 'MelBand_Roformer_4stems_FT_Large_v2_by_SYH99999.ckpt',
-    # doesn't work - 'MelBand Roformer | 4-stems Large v1 by Aname': 'MelBand_Roformer_4stems_Large_v1_by_Aname.ckpt',
-    # doesn't work - 'MelBand Roformer | 4-stems XL v1 by Aname': 'MelBand_Roformer_4stems_XL_v1_by_Aname.ckpt',
+    # 'MelBand Roformer | 4-stems FT Large v1 by SYH99999': 'MelBand_Roformer_4stems_FT_Large_v1_by_SYH99999.ckpt', | doesn't work, config editing required | config_MelBand_Roformer_4stems_FT_Large_by_SYH99999.yaml
+    # 'MelBand Roformer | 4-stems FT Large v2 by SYH99999': 'MelBand_Roformer_4stems_FT_Large_v2_by_SYH99999.ckpt', | doesn't work, config editing required | config_MelBand_Roformer_4stems_FT_Large_by_SYH99999.yaml
+    # 'MelBand Roformer | 4-stems Large v1 by Aname': 'MelBand_Roformer_4stems_Large_v1_by_Aname.ckpt', | doesn't work, config editing required | config_MelBand_Roformer_4stems_Large_v1_by_Aname.yaml
+    # 'MelBand Roformer | 4-stems XL v1 by Aname': 'MelBand_Roformer_4stems_XL_v1_by_Aname.ckpt', | doesn't work, config editing required | config_MelBand_Roformer_4stems_XL_v1_by_Aname.yaml
     'MelBand Roformer | SDR 1143 by Viperx': 'model_mel_band_roformer_ep_3005_sdr_11.4360.ckpt',
-    # doesn't work - 'MelBand Roformer | Small by Aname': 'melband_roformer_small_by_aname.ckpt',
+    # 'MelBand Roformer | Small by Aname': 'melband_roformer_small_by_aname.ckpt', | doesn't work, config editing required | config_melband_roformer_small_by_aname.yaml
     'MelBand Roformer | Aspiration by Sucial': 'aspiration_mel_band_roformer_sdr_18.9845.ckpt',
     'MelBand Roformer | Aspiration Less Aggressive by Sucial': 'aspiration_mel_band_roformer_less_aggr_sdr_18.1201.ckpt',
     'MelBand Roformer | Bleed Suppressor v1 by Unwa & 97chris': 'mel_band_roformer_bleed_suppressor_v1.ckpt',
