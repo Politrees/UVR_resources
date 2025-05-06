@@ -1,3 +1,7 @@
+"""
+The lists are mainly compiled for this project: https://github.com/Bebra777228/PolUVR
+If your project supports the integration of these model lists, feel free to use them.
+"""
 
 # ===== DEMUCS Models ===== #
 DEMUCS_v1_MODELS = {
