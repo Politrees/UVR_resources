@@ -1,7 +1,6 @@
 <div align="center">
 
 # UVR_resources
-Number of models »175«
 
 ---
 
