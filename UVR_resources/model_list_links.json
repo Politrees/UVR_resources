@@ -450,6 +450,10 @@
       "mel_band_roformer_inst_bleedless_v2_gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/mel_band_roformer_inst_bleedless_v2_gabox.ckpt",
       "config_melband_roformer_inst_gabox.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_inst_gabox.yaml"
     },
+    "Roformer Model: MelBand Roformer | Instrumental DeNoise-DeBleed by Gabox": {
+      "mel_band_roformer_inst_denoise_debleed_gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/mel_band_roformer_inst_denoise_debleed_gabox.ckpt",
+      "config_melband_roformer_inst_gabox.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_inst_gabox.yaml"
+    },
     "Roformer Model: MelBand Roformer | Instrumental Fullness v1 by Gabox": {
       "mel_band_roformer_inst_fullness_v1_gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/mel_band_roformer_inst_fullness_v1_gabox.ckpt",
       "config_melband_roformer_inst_gabox.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_inst_gabox.yaml"
@@ -498,9 +502,9 @@
       "mel_band_roformer_inst_fullness_vX_gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/mel_band_roformer_inst_fullness_vX_gabox.ckpt",
       "config_melband_roformer_inst_gabox.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_inst_gabox.yaml"
     },
-    "Roformer Model: MelBand Roformer | Instrumental DeNoise-DeBleed by Gabox": {
-      "mel_band_roformer_inst_denoise_debleed_gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/mel_band_roformer_inst_denoise_debleed_gabox.ckpt",
-      "config_melband_roformer_inst_gabox.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_inst_gabox.yaml"
+    "Roformer Model: MelBand Roformer | instrumental Metal preview by Mesk": {
+      "melband_roformer_inst_metal_prev_by_mesk.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/melband_roformer_inst_metal_prev_by_mesk.ckpt",
+      "config_melband_roformer_inst_metal_prev_by_mesk.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_inst_metal_prev_by_mesk.yaml"
     },
     "Roformer Model: MelBand Roformer | Karaoke by Aufr33 & Viperx": {
       "mel_band_roformer_karaoke_aufr33_viperx_sdr_10.1956.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/mel_band_roformer_karaoke_aufr33_viperx_sdr_10.1956.ckpt",
@@ -548,6 +552,10 @@
     },
     "Roformer Model: MelBand Roformer | Vocals Fullness v4 by Gabox": {
       "mel_band_roformer_voc_fullness_v4_gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/mel_band_roformer_voc_fullness_v4_gabox.ckpt",
+      "config_melband_roformer_voc_gabox.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_voc_gabox.yaml"
+    },
+    "Roformer Model: MelBand Roformer | Vocals Fullness v5 by Gabox": {
+      "mel_band_roformer_voc_fullness_v5_gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/mel_band_roformer_voc_fullness_v5_gabox.ckpt",
       "config_melband_roformer_voc_gabox.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_voc_gabox.yaml"
     },
     "Roformer Model: MelBand Roformer Kim | Inst v1 by Unwa": {
