@@ -1,0 +1,52 @@
+audio:
+  chunk_size: 881559
+  dim_f: 1024
+  dim_t: 2000
+  hop_length: 441
+  n_fft: 2048
+  num_channels: 2
+  sample_rate: 44100
+  min_mean_abs: 0.000
+
+model:
+  dim: 384
+  depth: 8
+  stereo: true
+  num_stems: 1
+  time_transformer_depth: 1
+  freq_transformer_depth: 1
+  num_bands: 60
+  dim_head: 64
+  heads: 8
+  attn_dropout: 0
+  ff_dropout: 0
+  flash_attn: True
+  dim_freqs_in: 1025
+  sample_rate: 44100  # needed for mel filter bank from librosa
+  stft_n_fft: 2048
+  stft_hop_length: 441
+  stft_win_length: 2048
+  stft_normalized: False
+  mask_estimator_depth: 2
+  multi_stft_resolution_loss_weight: 1.0
+  multi_stft_resolutions_window_sizes: !!python/tuple
+  - 4096
+  - 2048
+  - 1024
+  - 512
+  - 256
+  multi_stft_hop_size: 147
+  multi_stft_normalized: False
+
+training:
+  instruments:
+  - vocals
+  - other
+  target_instrument: other
+  other_fix: true # it's needed for checking on multisong dataset if other is actually instrumental
+  use_amp: true # enable or disable usage of mixed precision (float16) - usually it must be true
+
+inference:
+  batch_size: 1
+  dim_t: 2000
+  num_overlap: 5
