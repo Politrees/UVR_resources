@@ -37,9 +37,8 @@ def collect_expected_filenames(data):
     def _recursive_collect(item):
         if isinstance(item, dict):
             for key, value in item.items():
-                if isinstance(value, dict):
-                    for filename in value:
-                        filenames.add(filename)
+                if isinstance(value, str) and value.startswith(('http://', 'https://')):
+                    filenames.add(key)
                 _recursive_collect(value)
         elif isinstance(item, list):
             for element in item:
