@@ -4,9 +4,11 @@ on:
   push:
     paths:
       - 'UVR_resources/model_list_links.json'
+      - 'tests/test_models.py'
   pull_request:
     paths:
       - 'UVR_resources/model_list_links.json'
+      - 'tests/test_models.py'
   schedule:
     - cron: '0 0 * * *'  # Daily check
 
