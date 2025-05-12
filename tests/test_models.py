@@ -53,11 +53,7 @@ def expected_filenames():
     return collect_expected_filenames(load_model_links())
 
 
-@pytest.mark.parametrize(
-    "url",
-    collect_urls(load_model_links()),
-    ids=lambda url: url.split('/')[-1]
-)
+@pytest.mark.parametrize("url", collect_urls(load_model_links()), ids=None)
 def test_url_and_filename_validity(url, expected_filenames):
     try:
         # 1. Проверка доступности URL
