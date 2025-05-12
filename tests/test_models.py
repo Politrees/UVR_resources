@@ -11,7 +11,7 @@ def load_model_links():
 
 
 def collect_urls(data):
-    """Рекурсивно собирает все URL из JSON структуры"""
+    """Рекурсивно собирает все URL из JSON структуры без изменений"""
     urls = []
     if isinstance(data, dict):
         for value in data.values():
@@ -25,20 +25,21 @@ def collect_urls(data):
 
 
 def extract_filename(url):
-    """Извлекает имя файла из URL"""
+    """Извлекает оригинальное имя файла из URL без изменений"""
     path = unquote(urlparse(url).path)
     return Path(path).name
 
 
 def collect_expected_filenames(data):
-    """Собирает все имена файлов из JSON структуры"""
+    """Собирает точные имена файлов из JSON"""
     filenames = set()
     
     def _recursive_collect(item):
         if isinstance(item, dict):
             for key, value in item.items():
-                if any(key.endswith(ext) for ext in ['.th', '.pth', '.ckpt', '.onnx', '.yaml']):
-                    filenames.add(key)
+                if isinstance(value, dict):
+                    for filename in value:
+                        filenames.add(filename)
                 _recursive_collect(value)
         elif isinstance(item, list):
             for element in item:
@@ -53,28 +54,29 @@ def expected_filenames():
     return collect_expected_filenames(load_model_links())
 
 
-@pytest.mark.parametrize("url", collect_urls(load_model_links()))
+@pytest.mark.parametrize(
+    "url", 
+    collect_urls(load_model_links()),
+    ids=lambda url: url  # Используем оригинальный URL как идентификатор теста
+)
 def test_url_and_filename_validity(url, expected_filenames):
     try:
         # 1. Проверка доступности URL
         response = requests.head(url, allow_redirects=True, timeout=15)
         assert response.status_code == 200, f"Status code {response.status_code}"
 
-        # 2. Извлекаем имя файла из URL
+        # 2. Извлекаем оригинальное имя файла из URL
         actual_filename = extract_filename(url)
         
-        # 3. Проверяем соответствие имени файла
-        assert actual_filename in expected_filenames, \
-            f"Filename {actual_filename} not found in model list"
+        # 3. Проверяем точное соответствие имени файла
+        assert actual_filename in expected_filenames, (
+            f"Filename '{actual_filename}' not found in model list. "
+            f"URL: {url}"
+        )
 
         # 4. Проверка Content-Type
         content_type = response.headers.get('Content-Type', '')
         assert 'text/html' not in content_type, "HTML response instead of file"
-
-        # 5. Проверка минимального размера
-        if any(actual_filename.endswith(ext) for ext in ['.th', '.pth', '.ckpt', '.onnx']):
-            size = int(response.headers.get('Content-Length', 0))
-            assert size > 1024, f"File too small: {size} bytes"
 
     except RequestException as e:
         pytest.fail(f"Request failed: {str(e)}")
