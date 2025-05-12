@@ -57,7 +57,7 @@ def expected_filenames():
 @pytest.mark.parametrize(
     "url",
     collect_urls(load_model_links()),
-    ids=lambda url: url  # Используем оригинальный URL как идентификатор теста
+    ids=lambda url: url.split('/')[-1]
 )
 def test_url_and_filename_validity(url, expected_filenames):
     try:
