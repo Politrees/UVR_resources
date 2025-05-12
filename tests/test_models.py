@@ -33,7 +33,7 @@ def extract_filename(url):
 def collect_expected_filenames(data):
     """Собирает точные имена файлов из JSON"""
     filenames = set()
-    
+
     def _recursive_collect(item):
         if isinstance(item, dict):
             for key, value in item.items():
@@ -44,7 +44,7 @@ def collect_expected_filenames(data):
         elif isinstance(item, list):
             for element in item:
                 _recursive_collect(element)
-    
+
     _recursive_collect(data)
     return filenames
 
@@ -55,7 +55,7 @@ def expected_filenames():
 
 
 @pytest.mark.parametrize(
-    "url", 
+    "url",
     collect_urls(load_model_links()),
     ids=lambda url: url  # Используем оригинальный URL как идентификатор теста
 )
@@ -67,7 +67,7 @@ def test_url_and_filename_validity(url, expected_filenames):
 
         # 2. Извлекаем оригинальное имя файла из URL
         actual_filename = extract_filename(url)
-        
+
         # 3. Проверяем точное соответствие имени файла
         assert actual_filename in expected_filenames, (
             f"Filename '{actual_filename}' not found in model list. "
