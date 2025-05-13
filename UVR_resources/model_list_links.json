@@ -342,6 +342,10 @@
       "bs_roformer_revive_by_unwa.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/BandSplit/bs_roformer_revive_by_unwa.ckpt",
       "config_bs_roformer_revive_by_unwa.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/BandSplit/config_bs_roformer_revive_by_unwa.yaml"
     },
+    "Roformer Model: BandSplit Roformer | Revive v2 by Unwa": {
+      "bs_roformer_revive_v2_by_unwa.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/BandSplit/bs_roformer_revive_v2_by_unwa.ckpt",
+      "config_bs_roformer_revive_by_unwa.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/BandSplit/config_bs_roformer_revive_by_unwa.yaml"
+    },
     "Roformer Model: BandSplit Roformer | Vocals by Gabox": {
       "bs_roformer_voc_gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/BandSplit/bs_roformer_voc_gabox.ckpt",
       "config_bs_roformer_voc_gabox.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/BandSplit/config_bs_roformer_voc_gabox.yaml"

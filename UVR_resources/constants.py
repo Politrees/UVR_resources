@@ -162,6 +162,7 @@ ROFORMER_MODELS = {
     'BandSplit Roformer | Dereverb by anvuew': 'deverb_bs_roformer_8_384dim_10depth.ckpt',
     # 'BandSplit Roformer | Inst-EXP-Value-Residual by Unwa': 'BS_Inst_EXP_VRL.ckpt', | doesn't work, architecture editing required
     'BandSplit Roformer | Revive by Unwa': 'bs_roformer_revive_by_unwa.ckpt',
+    'BandSplit Roformer | Revive v2 by Unwa': 'bs_roformer_revive_v2_by_unwa.ckpt',
     'BandSplit Roformer | Vocals by Gabox': 'bs_roformer_voc_gabox.ckpt',
 
     # MelBand Roformer
