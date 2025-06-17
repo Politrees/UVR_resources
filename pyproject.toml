@@ -10,9 +10,9 @@ authors = ["Politrees <artyom.0.bebroy@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "UVR_resources"}]
-homepage = "https://github.com/Bebra777228/UVR_resources"
-repository = "https://github.com/Bebra777228/UVR_resources"
-documentation = "https://github.com/Bebra777228/UVR_resources/blob/main/README.md"
+homepage = "https://github.com/Politrees/UVR_resources"
+repository = "https://github.com/Politrees/UVR_resources"
+documentation = "https://github.com/Politrees/UVR_resources/blob/main/README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.8"
