@@ -346,6 +346,10 @@
       "bs_roformer_revive_v2_by_unwa.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/BandSplit/bs_roformer_revive_v2_by_unwa.ckpt",
       "config_bs_roformer_revive_by_unwa.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/BandSplit/config_bs_roformer_revive_by_unwa.yaml"
     },
+    "Roformer Model: BandSplit Roformer | Revive v3 by Unwa": {
+      "bs_roformer_revive_v3_by_unwa.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/BandSplit/bs_roformer_revive_v3_by_unwa.ckpt",
+      "config_bs_roformer_revive_by_unwa.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/BandSplit/config_bs_roformer_revive_by_unwa.yaml"
+    },
     "Roformer Model: BandSplit Roformer | Vocals by Gabox": {
       "bs_roformer_voc_gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/BandSplit/bs_roformer_voc_gabox.ckpt",
       "config_bs_roformer_voc_gabox.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/BandSplit/config_bs_roformer_voc_gabox.yaml"
@@ -429,6 +433,10 @@
     "Roformer Model: MelBand Roformer | Denoise Aggr by Aufr33": {
       "denoise_mel_band_roformer_aufr33_aggr_sdr_27.9768.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/denoise_mel_band_roformer_aufr33_aggr_sdr_27.9768.ckpt",
       "config_melband_roformer_denoise_aufr33_aggr_sdr_27.9768.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_denoise_aufr33_aggr_sdr_27.9768.yaml"
+    },
+    "Roformer Model: MelBand Roformer | Guitar by becruily": {
+      "melband_roformer_guitar_becruily.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/melband_roformer_guitar_becruily.ckpt",
+      "config_melband_roformer_guitar_becruily.yaml": "https://raw.githubusercontent.com/Bebra777228/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_guitar_becruily.yaml"
     },
     "Roformer Model: MelBand Roformer | Instrumental by becruily": {
       "mel_band_roformer_instrumental_becruily.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/mel_band_roformer_instrumental_becruily.ckpt",

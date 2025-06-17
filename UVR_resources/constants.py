@@ -163,6 +163,7 @@ ROFORMER_MODELS = {
     # 'BandSplit Roformer | Inst-EXP-Value-Residual by Unwa': 'BS_Inst_EXP_VRL.ckpt', | doesn't work, architecture editing required
     'BandSplit Roformer | Revive by Unwa': 'bs_roformer_revive_by_unwa.ckpt',
     'BandSplit Roformer | Revive v2 by Unwa': 'bs_roformer_revive_v2_by_unwa.ckpt',
+    'BandSplit Roformer | Revive v3 by Unwa': 'bs_roformer_revive_v3_by_unwa.ckpt',
     'BandSplit Roformer | Vocals by Gabox': 'bs_roformer_voc_gabox.ckpt',
 
     # MelBand Roformer
@@ -186,6 +187,7 @@ ROFORMER_MODELS = {
     'MelBand Roformer | DeReverb-Echo Fused by Sucial': 'dereverb_echo_mbr_fused.ckpt',
     'MelBand Roformer | Denoise by Aufr33': 'denoise_mel_band_roformer_aufr33_sdr_27.9959.ckpt',
     'MelBand Roformer | Denoise Aggr by Aufr33': 'denoise_mel_band_roformer_aufr33_aggr_sdr_27.9768.ckpt',
+    'MelBand Roformer | Guitar by becruily': 'melband_roformer_guitar_becruily.ckpt',
     'MelBand Roformer | Instrumental by becruily': 'mel_band_roformer_instrumental_becruily.ckpt',
     'MelBand Roformer | Instrumental by Gabox': 'mel_band_roformer_instrumental_gabox.ckpt',
     'MelBand Roformer | Instrumental v1 by Gabox': 'mel_band_roformer_inst_v1_gabox.ckpt',
