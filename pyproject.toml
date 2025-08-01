@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "UVR_resources"
-version = "1.19.0"
+version = "1.20.0"
 description = "Package for UVR resources"
 authors = ["Politrees <artyom.0.bebroy@gmail.com>"]
 license = "MIT"
