@@ -3,10 +3,16 @@ name: Test Model URLs
 on:
   push:
     paths:
+      - '.github/workflows/test.yml'
       - 'UVR_resources/model_list_links.json'
+      - 'UVR_resources/configs/*'
+      - 'tests/*'
   pull_request:
     paths:
+      - '.github/workflows/test.yml'
       - 'UVR_resources/model_list_links.json'
+      - 'UVR_resources/configs/*'
+      - 'tests/*'
   schedule:
     - cron: '0 0 * * *'  # Daily check
 
