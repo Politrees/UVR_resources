@@ -563,7 +563,7 @@
       "config_MelBand-Roformer_Karaoke_Fusion_v2_by-Gonza.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_MelBand-Roformer_Karaoke_Fusion_v2_by-Gonza.yaml"
     },
     "Roformer Model: MelBand Roformer | Karaoke Fusion Total by Gonza.ckpt": {
-      "model_MelBand-Roformer_Karaoke_Fusion_Total_by-Gonza": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/model_MelBand-Roformer_Karaoke_Fusion_Total_by-Gonza.ckpt",
+      "model_MelBand-Roformer_Karaoke_Fusion_Total_by-Gonza.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/model_MelBand-Roformer_Karaoke_Fusion_Total_by-Gonza.ckpt",
       "config_MelBand-Roformer_Karaoke_Fusion_Total_by-Gonza.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_MelBand-Roformer_Karaoke_Fusion_Total_by-Gonza.yaml"
     },
     "Roformer Model: MelBand Roformer | Vocals by becruily": {

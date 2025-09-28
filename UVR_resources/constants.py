@@ -145,7 +145,7 @@ MDX23C_MODELS = {
     'MDX23C DeReverb by aufr33 & jarredou': 'MDX23C-De-Reverb-aufr33-jarredou.ckpt',
     'MDX23C DrumSep by aufr33 & jarredou': 'MDX23C-DrumSep-aufr33-jarredou.ckpt',
     'MDX23C InstVoc HQ': 'MDX23C-8KFFT-InstVoc_HQ.ckpt',
-    # 'MDX23C Phantom Centre extraction by wesleyr36': 'model_mdx23c_ep_271_l1_freq_72.2383.ckpt', | doesn't work, config editing required | config_mdx23c_similarity.yaml
+    'MDX23C Phantom Centre extraction by wesleyr36': 'model_mdx23c_ep_271_l1_freq_72.2383.ckpt',
     'VIP | MDX23C_D1581': 'MDX23C_D1581.ckpt',
     'VIP | MDX23C InstVoc HQ 2': 'MDX23C-8KFFT-InstVoc_HQ_2.ckpt',
 }
@@ -153,7 +153,7 @@ MDX23C_MODELS = {
 # ===== Roformer Models ===== #
 ROFORMER_MODELS = {
     # BandSplit Roformer
-    # 'BandSplit Roformer | 4-stems FT by SYH99999': 'BandSplit_Roformer_4stems_FT_by_SYH99999.pth', | doesn't work, config editing required | config_BandSplit_Roformer_4stems_FT_by_SYH99999.yaml
+    'BandSplit Roformer | 4-stems FT by SYH99999': 'BandSplit_Roformer_4stems_FT_by_SYH99999.pth',
     'BandSplit Roformer | SDR 1053 by Viperx': 'model_bs_roformer_ep_937_sdr_10.5309.ckpt',
     'BandSplit Roformer | SDR 1296 by Viperx': 'model_bs_roformer_ep_368_sdr_12.9628.ckpt',
     'BandSplit Roformer | SDR 1297 by Viperx': 'model_bs_roformer_ep_317_sdr_12.9755.ckpt',
@@ -164,21 +164,21 @@ ROFORMER_MODELS = {
     'BandSplit Roformer | Revive by Unwa': 'bs_roformer_revive_by_unwa.ckpt',
     'BandSplit Roformer | Revive v2 by Unwa': 'bs_roformer_revive_v2_by_unwa.ckpt',
     'BandSplit Roformer | Revive v3 by Unwa': 'bs_roformer_revive_v3_by_unwa.ckpt',
-    # 'BandSplit Roformer | Resurrection Instrumental by Unwa': 'model_BandSplit-Roformer_Resurrection_Instrumental_by-Unwa.ckpt', | doesn't work, config editing required | config_BandSplit-Roformer_Resurrection_Instrumental_by-Unwa.yaml
-    # 'BandSplit Roformer | Resurrection Vocals by Unwa': 'model_BandSplit-Roformer_Resurrection_Vocals_by-Unwa.ckpt', | doesn't work, config editing required | config_BandSplit-Roformer_Resurrection_Vocals_by-Unwa.yaml
+    'BandSplit Roformer | Resurrection Instrumental by Unwa': 'model_BandSplit-Roformer_Resurrection_Instrumental_by-Unwa.ckpt',
+    'BandSplit Roformer | Resurrection Vocals by Unwa': 'model_BandSplit-Roformer_Resurrection_Vocals_by-Unwa.ckpt',
     'BandSplit Roformer | Vocals by Gabox': 'bs_roformer_voc_gabox.ckpt',
 
     # MelBand Roformer
-    # 'MelBand Roformer | 4-stems FT Large v1 by SYH99999': 'MelBand_Roformer_4stems_FT_Large_v1_by_SYH99999.ckpt', | doesn't work, config editing required | config_MelBand_Roformer_4stems_FT_Large_by_SYH99999.yaml
-    # 'MelBand Roformer | 4-stems FT Large v2 by SYH99999': 'MelBand_Roformer_4stems_FT_Large_v2_by_SYH99999.ckpt', | doesn't work, config editing required | config_MelBand_Roformer_4stems_FT_Large_by_SYH99999.yaml
-    # 'MelBand Roformer | 4-stems Large v1 by Aname': 'MelBand_Roformer_4stems_Large_v1_by_Aname.ckpt', | doesn't work, config editing required | config_MelBand_Roformer_4stems_Large_v1_by_Aname.yaml
-    # 'MelBand Roformer | 4-stems XL v1 by Aname': 'MelBand_Roformer_4stems_XL_v1_by_Aname.ckpt', | doesn't work, config editing required | config_MelBand_Roformer_4stems_XL_v1_by_Aname.yaml
+    'MelBand Roformer | 4-stems FT Large v1 by SYH99999': 'MelBand_Roformer_4stems_FT_Large_v1_by_SYH99999.ckpt',
+    'MelBand Roformer | 4-stems FT Large v2 by SYH99999': 'MelBand_Roformer_4stems_FT_Large_v2_by_SYH99999.ckpt',
+    'MelBand Roformer | 4-stems Large v1 by Aname': 'MelBand_Roformer_4stems_Large_v1_by_Aname.ckpt',
+    'MelBand Roformer | 4-stems XL v1 by Aname': 'MelBand_Roformer_4stems_XL_v1_by_Aname.ckpt',
     'MelBand Roformer | SDR 1143 by Viperx': 'model_mel_band_roformer_ep_3005_sdr_11.4360.ckpt',
     # 'MelBand Roformer | Small by Aname': 'melband_roformer_small_by_aname.ckpt', | doesn't work, config editing required | config_melband_roformer_small_by_aname.yaml
     'MelBand Roformer | Aspiration by Sucial': 'aspiration_mel_band_roformer_sdr_18.9845.ckpt',
     'MelBand Roformer | Aspiration Less Aggressive by Sucial': 'aspiration_mel_band_roformer_less_aggr_sdr_18.1201.ckpt',
     'MelBand Roformer | Bleed Suppressor v1 by Unwa & 97chris': 'mel_band_roformer_bleed_suppressor_v1.ckpt',
-    # 'MelBand Roformer | BVE by Gonza': 'model_MelBand-Roformer_BVE_by-Gonza.ckpt', | doesn't work, config editing required | config_MelBand-Roformer_BVE_by-Gonza.yaml
+    'MelBand Roformer | BVE by Gonza': 'model_MelBand-Roformer_BVE_by-Gonza.ckpt',
     'MelBand Roformer | Crowd by Aufr33 & Viperx': 'mel_band_roformer_crowd_aufr33_viperx_sdr_8.7144.ckpt',
     'MelBand Roformer | DeReverb by anvuew': 'dereverb_mel_band_roformer_anvuew_sdr_19.1729.ckpt',
     'MelBand Roformer | DeReverb Mono by anvuew': 'dereverb_mel_band_roformer_mono_anvuew_sdr_20.4029.ckpt',
@@ -215,11 +215,11 @@ ROFORMER_MODELS = {
     'MelBand Roformer | Karaoke by Aufr33 & Viperx': 'mel_band_roformer_karaoke_aufr33_viperx_sdr_10.1956.ckpt',
     'MelBand Roformer | Karaoke by becruily': 'melband_roformer_karaoke_becruily.ckpt',
     'MelBand Roformer | Karaoke by Gabox': 'mel_band_roformer_karaoke_gabox.ckpt',
-    # 'MelBand Roformer | Karaoke by Gabox upd': 'model_MelBand-Roformer_Karaoke_by-Gabox.ckpt', | doesn't work, config editing required | config_MelBand-Roformer_Karaoke_by-Gabox.yaml
-    # 'MelBand Roformer | Karaoke Fusion Standard by Gonza': 'model_MelBand-Roformer_Karaoke_Fusion_Standard_by-Gonza.ckpt', | doesn't work, config editing required | config_MelBand-Roformer_Karaoke_Fusion_by-Gonza.yaml
-    # 'MelBand Roformer | Karaoke Fusion Aggressive by Gonza': 'model_MelBand-Roformer_Karaoke_Fusion_Aggressive_by-Gonza.ckpt', | doesn't work, config editing required | config_MelBand-Roformer_Karaoke_Fusion_by-Gonza.yaml
-    # 'MelBand Roformer | Karaoke Fusion Aggressive v2 by Gonza': 'model_MelBand-Roformer_Karaoke_Fusion_Aggressive_v2_by-Gonza.ckpt', | doesn't work, config editing required | config_MelBand-Roformer_Karaoke_Fusion_v2_by-Gonza.yaml
-    # 'MelBand Roformer | Karaoke Fusion Total by Gonza': 'model_MelBand-Roformer_Karaoke_Fusion_Total_by-Gonza.ckpt', | doesn't work, config editing required | config_MelBand-Roformer_Karaoke_Fusion_Total_by-Gonza.yaml
+    'MelBand Roformer | Karaoke by Gabox upd': 'model_MelBand-Roformer_Karaoke_by-Gabox.ckpt',
+    'MelBand Roformer | Karaoke Fusion Standard by Gonza': 'model_MelBand-Roformer_Karaoke_Fusion_Standard_by-Gonza.ckpt',
+    'MelBand Roformer | Karaoke Fusion Aggressive by Gonza': 'model_MelBand-Roformer_Karaoke_Fusion_Aggressive_by-Gonza.ckpt',
+    'MelBand Roformer | Karaoke Fusion Aggressive v2 by Gonza': 'model_MelBand-Roformer_Karaoke_Fusion_Aggressive_v2_by-Gonza.ckpt',
+    'MelBand Roformer | Karaoke Fusion Total by Gonza': 'model_MelBand-Roformer_Karaoke_Fusion_Total_by-Gonza.ckpt',
     'MelBand Roformer | Vocals by becruily': 'mel_band_roformer_vocals_becruily.ckpt',
     'MelBand Roformer | Vocals by Kimberley Jensen': 'vocals_mel_band_roformer.ckpt',
     'MelBand Roformer | Vocals by Gabox': 'mel_band_roformer_voc_gabox.ckpt',
