@@ -160,7 +160,7 @@ ROFORMER_MODELS = {
     'BandSplit Roformer | Chorus Male-Female by Sucial': 'model_chorus_bs_roformer_ep_267_sdr_24.1275.ckpt',
     'BandSplit Roformer | Male-Female by aufr33': 'bs_roformer_male_female_by_aufr33_sdr_7.2889.ckpt',
     'BandSplit Roformer | Dereverb by anvuew': 'deverb_bs_roformer_8_384dim_10depth.ckpt',
-    'BandSplit Roformer | FNO by Unwa': 'model_BandSplit-Roformer_FNO_by-Unwa.ckpt',
+    # 'BandSplit Roformer | FNO by Unwa': 'model_BandSplit-Roformer_FNO_by-Unwa.ckpt', | doesn't work, architecture editing required
     # 'BandSplit Roformer | Inst-EXP-Value-Residual by Unwa': 'BS_Inst_EXP_VRL.ckpt', | doesn't work, architecture editing required
     'BandSplit Roformer | Karaoke Frazer by becruily': 'model_BandSplit-Roformer_Karaoke_Frazer_by-becruily.ckpt',
     'BandSplit Roformer | Revive by Unwa': 'bs_roformer_revive_by_unwa.ckpt',
