@@ -334,9 +334,17 @@
       "deverb_bs_roformer_8_384dim_10depth.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/BandSplit/deverb_bs_roformer_8_384dim_10depth.ckpt",
       "config_bs_roformer_deverb_8_384dim_10depth.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/BandSplit/config_bs_roformer_deverb_8_384dim_10depth.yaml"
     },
+    "Roformer Model: BandSplit Roformer | FNO by Unwa": {
+      "model_BandSplit-Roformer_FNO_by-Unwa.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/BandSplit/model_BandSplit-Roformer_FNO_by-Unwa.ckpt",
+      "config_BandSplit-Roformer_FNO_by-Unwa.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/BandSplit/config_BandSplit-Roformer_FNO_by-Unwa.yaml"
+    },
     "Roformer Model: BandSplit Roformer | Inst-EXP-Value-Residual by Unwa": {
       "BS_Inst_EXP_VRL.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/BandSplit/BS_Inst_EXP_VRL.ckpt",
       "config_bs_roformer_inst_exp_vrl.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/BandSplit/config_bs_roformer_inst_exp_vrl.yaml"
+    },
+    "Roformer Model: BandSplit Roformer | Karaoke Frazer by becruily": {
+      "model_BandSplit-Roformer_Karaoke_Frazer_by-becruily.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/BandSplit/model_BandSplit-Roformer_Karaoke_Frazer_by-becruily.ckpt",
+      "config_BandSplit-Roformer_Karaoke_Frazer_by-becruily.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/BandSplit/config_BandSplit-Roformer_Karaoke_Frazer_by-becruily.yaml"
     },
     "Roformer Model: BandSplit Roformer | Revive by Unwa": {
       "bs_roformer_revive_by_unwa.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/BandSplit/bs_roformer_revive_by_unwa.ckpt",
@@ -361,6 +369,10 @@
     "Roformer Model: BandSplit Roformer | Vocals by Gabox": {
       "bs_roformer_voc_gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/BandSplit/bs_roformer_voc_gabox.ckpt",
       "config_bs_roformer_voc_gabox.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/BandSplit/config_bs_roformer_voc_gabox.yaml"
+    },
+    "Roformer Model: BandSplit Roformer | SW by jarredou": {
+      "model_BandSplit-Roformer_SW_by-jarredou.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/BandSplit/model_BandSplit-Roformer_SW_by-jarredou.ckpt",
+      "config_BandSplit-Roformer_SW_by-jarredou.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/BandSplit/config_BandSplit-Roformer_SW_by-jarredou.yaml"
     },
     "Roformer Model: MelBand Roformer | 4-stems FT Large v1 by SYH99999": {
       "MelBand_Roformer_4stems_FT_Large_v1_by_SYH99999.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/MelBand_Roformer_4stems_FT_Large_v1_by_SYH99999.ckpt",
@@ -445,6 +457,10 @@
     "Roformer Model: MelBand Roformer | Denoise Aggr by Aufr33": {
       "denoise_mel_band_roformer_aufr33_aggr_sdr_27.9768.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/denoise_mel_band_roformer_aufr33_aggr_sdr_27.9768.ckpt",
       "config_melband_roformer_denoise_aufr33_aggr_sdr_27.9768.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_denoise_aufr33_aggr_sdr_27.9768.yaml"
+    },
+    "Roformer Model: MelBand Roformer | Duality v1 by Aname": {
+      "model_MelBand-Roformer_Duality_v1_by-Aname.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/model_MelBand-Roformer_Duality_v1_by-Aname.ckpt",
+      "config_MelBand-Roformer_Duality_v1_by-Aname.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_MelBand-Roformer_Duality_v1_by-Aname.yaml"
     },
     "Roformer Model: MelBand Roformer | Guitar by becruily": {
       "melband_roformer_guitar_becruily.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/melband_roformer_guitar_becruily.ckpt",
@@ -542,11 +558,11 @@
       "melband_roformer_karaoke_becruily.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/melband_roformer_karaoke_becruily.ckpt",
       "config_melband_roformer_karaoke_becruily.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_karaoke_becruily.yaml"
     },
-    "Roformer Model: MelBand Roformer | Karaoke by Gabox": {
+    "Roformer Model: MelBand Roformer | Karaoke by Gabox (beta)": {
       "mel_band_roformer_karaoke_gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/mel_band_roformer_karaoke_gabox.ckpt",
       "config_melband_roformer_voc_gabox.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_voc_gabox.yaml"
     },
-    "Roformer Model: MelBand Roformer | Karaoke by Gabox upd": {
+    "Roformer Model: MelBand Roformer | Karaoke by Gabox": {
       "model_MelBand-Roformer_Karaoke_by-Gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/model_MelBand-Roformer_Karaoke_by-Gabox.ckpt",
       "config_MelBand-Roformer_Karaoke_by-Gabox.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_MelBand-Roformer_Karaoke_by-Gabox.yaml"
     },
