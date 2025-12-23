@@ -234,6 +234,7 @@ ROFORMER_MODELS = {
     'MelBand Roformer | Vocals Fullness v3 by Gabox': 'mel_band_roformer_voc_fullness_v3_gabox.ckpt',
     'MelBand Roformer | Vocals Fullness v4 by Gabox': 'mel_band_roformer_voc_fullness_v4_gabox.ckpt',
     'MelBand Roformer | Vocals Fullness v5 by Gabox': 'mel_band_roformer_voc_fullness_v5_gabox.ckpt',
+    'MelBand Roformer | Vocals Fullness v6 by Gabox': 'mel_band_roformer_voc_fullness_v6_gabox.ckpt',
 
     # MelBand Roformer Pre-Trained by Kim
     'MelBand Roformer Kim | Inst v1 by Unwa': 'melband_roformer_inst_v1.ckpt',

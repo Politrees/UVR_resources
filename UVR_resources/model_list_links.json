@@ -622,6 +622,10 @@
       "mel_band_roformer_voc_fullness_v5_gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/mel_band_roformer_voc_fullness_v5_gabox.ckpt",
       "config_melband_roformer_voc_gabox.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_voc_gabox.yaml"
     },
+    "Roformer Model: MelBand Roformer | Vocals Fullness v6 by Gabox": {
+      "mel_band_roformer_voc_fullness_v6_gabox.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/mel_band_roformer_voc_fullness_v6_gabox.ckpt",
+      "config_melband_roformer_voc_gabox.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_voc_gabox.yaml"
+    },
     "Roformer Model: MelBand Roformer Kim | Inst v1 by Unwa": {
       "melband_roformer_inst_v1.ckpt": "https://huggingface.co/Politrees/UVR_resources/resolve/main/models/Roformer/MelBand/melband_roformer_inst_v1.ckpt",
       "config_melband_roformer_inst.yaml": "https://raw.githubusercontent.com/Politrees/UVR_resources/refs/heads/main/UVR_resources/configs/Roformer/MelBand/config_melband_roformer_inst.yaml"
